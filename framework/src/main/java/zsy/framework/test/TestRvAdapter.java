@@ -30,7 +30,7 @@ public class TestRvAdapter extends RecyclerView.Adapter<TestRvAdapter.VH> {
 
     @Override
     public VH onCreateViewHolder(ViewGroup parent, int viewType) {
-        View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_rv_test0, parent, false);
+        View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_rv_test, parent, false);
         return new VH(itemView);
     }
 

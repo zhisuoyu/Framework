@@ -1,37 +1,48 @@
 package com.zsy.app;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
 
-import butterknife.BindView;
-import zsy.framework.app.BaseActivity;
-import zsy.framework.widget.TopBar;
+import java.util.Arrays;
+import java.util.List;
 
-public class MainActivity extends BaseActivity {
+import zsy.framework.test.TestActivity;
 
-
-    @BindView(R.id.tb) TopBar tb;
-
+public class MainActivity extends TestActivity {
     @Override
-    public void initContentView() {
-        setContentView(R.layout.activity_main);
+    public List<String> getActions() {
+        return Arrays.asList("Test");
     }
 
     @Override
-    public void initView() {
-        super.initView();
-        tb.setOnSubClickListener(new TopBar.OnSubClickListener() {
-            @Override
-            public void onLeftClick(View view) {
-                Log.i("main", "onLeftClick");
-            }
-
-            @Override
-            public void onRightClick(View view) {
-                Log.i("main", "onRightClick");
-            }
-        });
+    public void onItemClick(int position) {
+        switch (position) {
+            case 0:
+                Log.i("main", "position:" + position);
+                break;
+        }
     }
+
+
+//    @BindView(R.id.tb) TopBar tb;
+//
+//    @Override
+//    public void initContentView() {
+//        setContentView(R.layout.activity_main);
+//    }
+//
+//    @Override
+//    public void initView() {
+//        super.initView();
+//        tb.setOnSubClickListener(new TopBar.OnSubClickListener() {
+//            @Override
+//            public void onLeftClick(View view) {
+//                Log.i("main", "onLeftClick");
+//            }
+//
+//            @Override
+//            public void onRightClick(View view) {
+//                Log.i("main", "onRightClick");
+//            }
+//        });
+//    }
 }
