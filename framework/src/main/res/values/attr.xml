@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="TopBar">
+
+        <!--<attr name="wholeColor" format="color|reference"/>-->
+
+        <attr name="textColor" format="color" />
+
+        <attr name="titleText" format="string" />
+        <attr name="titleSize" format="dimension" />
+
+        <attr name="subTitleSize" format="dimension" />
+        <attr name="subColor" format="color|reference" />
+
+        <attr name="leftText" format="string" />
+
+        <attr name="leftDrawable" format="reference" />
+
+        <attr name="rightText" format="string" />
+
+        <attr name="rightDrawable" format="reference" />
+
+
+        <!--<attr name="leftBackground" format="color|reference" />-->
+        <!--<attr name="leftDrawableLeft" format="reference" />-->
+        <!--<attr name="leftPaddingLeft" format="dimension" />-->
+        <!--<attr name="leftPaddingTop" format="dimension" />-->
+        <!--<attr name="leftPaddingRight" format="dimension" />-->
+        <!--<attr name="leftPaddingBottom" format="dimension" />-->
+        <!--<attr name="leftDrawablePadding" format="dimension" />-->
+
+        <!--<attr name="leftWidth" format="dimension">-->
+        <!--<enum name="fill_parent" value="-1"/>-->
+        <!--<enum name="match_parent" value="-1"/>-->
+        <!--<enum name="wrap_content" value="-2"/>-->
+        <!--</attr>-->
+        <!--<attr name="leftHeight" format="dimension">-->
+        <!--<enum name="fill_parent" value="-1"/>-->
+        <!--<enum name="match_parent" value="-1"/>-->
+        <!--<enum name="wrap_content" value="-2"/>-->
+        <!--</attr>-->
+
+        <!--<attr name="rightText" format="string" />-->
+        <!--<attr name="rightColor" format="color|reference" />-->
+        <!--<attr name="rightSize" format="dimension" />-->
+        <!--<attr name="rightBackground" format="color|reference" />-->
+        <!--<attr name="rightDrawableRight" format="reference" />-->
+        <!--<attr name="rightPaddingLeft" format="dimension" />-->
+        <!--<attr name="rightPaddingTop" format="dimension" />-->
+        <!--<attr name="rightPaddingRight" format="dimension" />-->
+        <!--<attr name="rightPaddingBottom" format="dimension" />-->
+        <!--<attr name="rightDrawablePadding" format="dimension" />-->
+
+        <!--<attr name="rightWidth" format="dimension">-->
+        <!--&lt;!&ndash;<enum name="fill_parent" value="-1"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;<enum name="match_parent" value="-1"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;<enum name="wrap_content" value="-2"/>&ndash;&gt;-->
+        <!--</attr>-->
+        <!--<attr name="rightHeight" format="dimension">-->
+        <!--&lt;!&ndash;<enum name="fill_parent" value="-1"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;<enum name="match_parent" value="-1"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;<enum name="wrap_content" value="-2"/>&ndash;&gt;-->
+        <!--</attr>-->
+
+    </declare-styleable>
+
+</resources>
